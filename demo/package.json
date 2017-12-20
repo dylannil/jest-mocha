@@ -3,9 +3,9 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "ios": "react-native run-ios --simulator \"iPad Pro (9.7 inch)\"",
-    "config": "jest --showConfig",
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"ios": "react-native run-ios --simulator \"iPad Pro (9.7 inch)\"",
+		"config": "jest --showConfig",
 		"test": "jest"
 	},
 	"dependencies": {
@@ -15,11 +15,13 @@
 	"devDependencies": {
 		"babel-jest": "20.0.3",
 		"babel-preset-react-native": "2.1.0",
+		"chai": "^4.1.0",
 		"jest": "20.0.4",
+		"mocha": "^3.5.0",
 		"react-test-renderer": "16.0.0-alpha.12"
 	},
 	"jest": {
-    "preset": "react-native",
-    "testRegex": "test/unit/view.js$"
+		"preset": "react-native",
+		"testRegex": "test/unit/view.js$"
 	}
 }

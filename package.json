@@ -11,5 +11,9 @@
     "url": "git@git.yearnio.com:node/jest-mocha"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "peerDependencies": {
+    "chai": "^4.1.0",
+		"mocha": "^3.5.0"
+  }
 }
